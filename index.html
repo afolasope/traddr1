@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>traddr</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Livvic:wght@100;200;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <section class="left-section">
+        <div class="left-section__wrapper">
+          <div class="header">
+            <h1>traddr.co</h1>
+          </div>
+          <div class="img-container">
+            <img src="/back and obj 30.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="right-section">
+        <div class="right-section__wrapper">
+          <div class="top-right">
+            <p>
+              Have an account? <span><a href="#">Sign in</a></span>
+            </p>
+          </div>
+          <div class="heading">
+            <h2>Create your account</h2>
+            <p>Manage, understand and make profit from their business</p>
+            <button class="google">
+              <span><img src="/google.svg" alt="" /></span>
+              <span>Continue with Google</span>
+            </button>
+            <a href="#">Or sign up with email</a>
+            <form action="/">
+              <div class="input-info">
+                <label for="name">What's your full name</label>
+                <input
+                  type="text"
+                  id="name "
+                  placeholder="Enter your first and last name"
+                />
+              </div>
+              <div class="input-info">
+                <label for="email">What's your email</label>
+                <input
+                  type="text"
+                  id="email "
+                  placeholder="Enter your email address"
+                />
+              </div>
+              <div class="input-info">
+                <label for="password">Enter a password</label>
+                <div class="last-input">
+                  <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your first and last name"
+                  />
+                  <button class="showbtn" id="show">SHOW</button>
+                  <button class="hidebtn hidden" id="hide">HIDE</button>
+                </div>
+              </div>
+              <p class="terms">
+                By signing up, you are agreeing to our
+                <a href="#"> terms of service</a> and
+                <a href="#"> privacy policy</a>
+              </p>
+              <button type="submit" class="create-account">
+                Create your account
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
